@@ -10,7 +10,7 @@ ruby main.rb ArabidopsisSubNetwork_GeneList.txt output.gff output_chromosome_coo
 ```
 **`output.gff`** is the coordinates of repeats within genes and **`output_chromosome_coord.gff`** is the chromosome-based coordinates.
 
-You can find documentation YARD documentation in  **`doc/`:**
+You can find YARD documentation in  **`doc/`:**
 
 This work consists of one main script (`main.rb`) and three classes:
 * `database.rb`.
