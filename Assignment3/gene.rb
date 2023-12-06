@@ -72,14 +72,6 @@ class Gene
 
     return @gff_array unless @gff_array.nil?
   end
-
-  # Writes the GFF array to a file in GFF3 format.
-  #
-  # @param output_filename [String] The name of the output GFF file. Default is 'output.gff3'.
-  def write_gff(output_filename = 'output.gff3')
-    File.open(output_filename, 'a') do |file|
-      @gff_array.each { |line| file.puts line }
-    end
-  end
+  
 end
 
